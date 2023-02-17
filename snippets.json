@@ -1,0 +1,17 @@
+{
+	"Define custom-element": {
+		"prefix": "define",
+		"body": [
+			"export default customElements.define('$1', class $2 extends HTMLElement {\n\tconstructor() {\n\t\tsuper()}});"
+		],
+		"description": "Define a customElement"
+	},
+  "Define lit-element": {
+		"prefix": "define",
+		"body": [
+			"import {html, css, LitElement} from 'lit'",
+      "export default customElements.define('$1', class $2 extends LitElement {\n\tstatic properties = {\n\t\t$3}\n\n\tconstructor() {\n\t\tsuper()}\n\n\tstatic styles = css`$4`\n\n\trender(){\n\t\treturn html`$5`}});"
+		],
+		"description": "Define a LitElement"
+	}
+}

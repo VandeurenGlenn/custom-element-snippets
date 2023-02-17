@@ -1,0 +1,41 @@
+{
+  "name": "custom-element-snippets",
+  "displayName": "Collection of custom-* snippets",
+  "version": "1.0.0",
+  "description": "Collection of custom-* snippets",
+  "publisher": "Iondependent",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "keywords": [
+    "vs",
+    "code",
+    "snippet",
+    "element",
+    "custom"
+  ],
+  "author": "Glenn Vandeuren",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/custom-element-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/custom-element-snippets/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/custom-element-snippets#readme"
+}
